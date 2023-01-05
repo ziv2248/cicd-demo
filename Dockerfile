@@ -1,4 +1,4 @@
-FROM golang:1.14.6-alpine
+FROM golang:1.17-alpine
 
 RUN mkdir /cicd-demo
 WORKDIR /cicd-demo
