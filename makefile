@@ -1,7 +1,7 @@
 run:
 	go run main.go
 go-mod-tidy:
-	go run main.go
+	go mod tidy
 functional-tests:
 	go test -v -cover=true internal/test/*_test.go
 docker-build:
