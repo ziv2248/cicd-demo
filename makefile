@@ -7,4 +7,4 @@ functional-tests:
 docker-build:
 	docker build . -t cicd-demo
 docker-run:
-	docker run -d -p 8081:8081 cicd-demo --name='cicd-demo' --rm
+	docker run --name="cicd-demo" --rm -d -p 8081:8081 cicd-demo
